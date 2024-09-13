@@ -1,0 +1,11 @@
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\bin\Debug\net7.0\PepPanel.Domain.deps.json
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\bin\Debug\net7.0\PepPanel.Domain.dll
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\bin\Debug\net7.0\PepPanel.Domain.pdb
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\PepPanel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\PepPanel.Domain.AssemblyInfoInputs.cache
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\PepPanel.Domain.AssemblyInfo.cs
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\PepPanel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\PepPanel.Domain.dll
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\refint\PepPanel.Domain.dll
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\PepPanel.Domain.pdb
+C:\Users\jucelino.junior\source\repos\PepPanel\PepPanel.Domain\obj\Debug\net7.0\ref\PepPanel.Domain.dll

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\repos\\peppanel\\peppanelmvc.webui\\controllers\\warningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\controllers\\warningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\repos\\peppanel\\peppanelmvc.webui\\views\\warning\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\views\\warning\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\repos\\peppanel\\peppanelmvc.webui\\views\\warning\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\views\\warning\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|c:\\users\\jucelino.junior\\source\\repos\\peppanel\\peppanel.application\\services\\warningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|solutionrelative:peppanel.application\\services\\warningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|c:\\users\\jucelino.junior\\source\\repos\\peppanel\\peppanel.application\\dtos\\warningdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|solutionrelative:peppanel.application\\dtos\\warningdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarningService.cs",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\Services\\WarningService.cs",
+              "RelativeDocumentMoniker": "PepPanel.Application\\Services\\WarningService.cs",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\Services\\WarningService.cs",
+              "RelativeToolTip": "PepPanel.Application\\Services\\WarningService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T15:44:16.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WarningDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\DTOs\\WarningDTO.cs",
+              "RelativeDocumentMoniker": "PepPanel.Application\\DTOs\\WarningDTO.cs",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\DTOs\\WarningDTO.cs",
+              "RelativeToolTip": "PepPanel.Application\\DTOs\\WarningDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:48:41.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\Views\\Warning\\Create.cshtml",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Views\\Warning\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\Views\\Warning\\Create.cshtml",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\Views\\Warning\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:48:16.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\Views\\Warning\\Index.cshtml",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Views\\Warning\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\Views\\Warning\\Index.cshtml",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\Views\\Warning\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T18:48:46.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WarningController.cs",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T14:31:06.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

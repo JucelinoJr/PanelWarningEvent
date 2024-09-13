@@ -1,0 +1,30 @@
+﻿@model PepPanel.Application.DTOs.WarningDTO
+
+@{
+    ViewData["Title"] = "Registrar novo aviso";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-horizontal">
+        <hr />
+
+        <div class="form-group">
+            <div class="col-md-10 form-control-sm">
+                <label asp-for="Description" class="col-md-2 control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+        <hr />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-success btn-sm">
+                    Criar
+                </button>
+                <a asp-action="Index" class="btn btn-info btn-sm">Voltar</a>
+            </div>
+        </div>
+    </div>
+</form>
