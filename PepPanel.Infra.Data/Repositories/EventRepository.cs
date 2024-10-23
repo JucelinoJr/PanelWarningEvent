@@ -32,7 +32,7 @@ namespace PepPanel.Infra.Data.Repositories
             return Event;
         }
 
-        public async Task<Event> GetByIdAsync(int? id)
+        public async Task<Event> GetByIdAsync(string? id)
         {
             return await _EventContext.Event.FindAsync(id);
         }
@@ -47,6 +47,10 @@ namespace PepPanel.Infra.Data.Repositories
             _EventContext.Update(Event);
             await _EventContext.SaveChangesAsync();
             return Event;
+        }
+        public string GetNextSequenceValueAsync()
+        {
+            return _EventContext.ContextId.InstanceId.ToString();
         }
     }
 }

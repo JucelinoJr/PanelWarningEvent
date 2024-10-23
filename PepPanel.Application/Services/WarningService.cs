@@ -24,20 +24,20 @@ namespace PepPanel.Application.Services
 
         public async Task Add(WarningDTO warningDTO)
         {
-            warningDTO.Id = await GetNextSequenceValueAsync();
+            warningDTO.Id = GetNextSequenceValueAsync();
             var warningEntity = _mapper.Map<Warning>(warningDTO);
             await _warningRepository.CreateAsync(warningEntity);
         }
 
-        public async Task Delete(int? id)
+        public async Task Delete(string? id)
         {
-            var warningEntity = _warningRepository.GetByIdAsync(id).Result;
+            var warningEntity = _warningRepository.GetWarningById(id).Result;
             await _warningRepository.DeleteAsync(warningEntity);
         }
 
-        public async Task<WarningDTO> GetWarningById(int? id)
+        public async Task<WarningDTO> GetWarningById(string? id)
         {
-            var warningEntity = await _warningRepository.GetByIdAsync(id);
+            var warningEntity = await _warningRepository.GetWarningById(id);
             return _mapper.Map<WarningDTO>(warningEntity);
         }
 
@@ -52,10 +52,9 @@ namespace PepPanel.Application.Services
             var warningEntity = _mapper.Map<Warning>(warningDTO);
             await _warningRepository.UpdateAsync(warningEntity);
         }
-
-        public async Task<int> GetNextSequenceValueAsync()
+        public string GetNextSequenceValueAsync()
         {
-            return await _warningRepository.GetNextSequenceValueAsync();
+            return _warningRepository.GetNextSequenceValueAsync();
         }
     }
 }

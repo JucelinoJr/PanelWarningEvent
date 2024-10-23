@@ -12,7 +12,7 @@ namespace PepPanel.Domain.Entities
     public sealed class Warning
     {
         [Column("WR_ID")]
-        public int Id { get; private set; }
+        public string Id { get; private set; }
 
         [Column("WR_DESCRIPTION")]
         public string Description {  get; private set; }
@@ -28,9 +28,9 @@ namespace PepPanel.Domain.Entities
             ValidateDomain(description);
         }
 
-        public Warning(int id, string description)
+        public Warning(string id, string description)
         {
-            DomainExceptionValidation.When(id < 0, "Id inválido/inexistente");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(id), "Id inválido/inexistente");
             Id = id;
             ValidateDomain(description);
         }

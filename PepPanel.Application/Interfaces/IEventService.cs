@@ -10,9 +10,10 @@ namespace PepPanel.Application.Interfaces
     public interface IEventService
     {
         Task<IEnumerable<EventDTO>> GetEvents();
-        Task<EventDTO> GetEventById(int id);
+        Task<EventDTO> GetEventById(string id);
         Task Add(EventDTO warningDTO);
         Task Update(EventDTO warningDTO);
-        Task Delete(int? id);
+        Task Delete(string? id);
+        string GetNextSequenceValueAsync();
     }
 }

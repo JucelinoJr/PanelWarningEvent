@@ -12,7 +12,7 @@ namespace PepPanel.Domain.Entities
     public sealed class Event
     {
         [Column("EV_ID")]
-        public int Id { get; private set; }
+        public string Id { get; private set; }
 
         [Column("EV_EVENTDATETIME")]
         public DateTime? EventDateTime { get; private set; }
@@ -34,9 +34,9 @@ namespace PepPanel.Domain.Entities
             ValidateDomain(eventDateTime, description, responsible);
         }
 
-        public Event(int id, DateTime? eventDateTime, string description, string responsible) 
+        public Event(string id, DateTime? eventDateTime, string description, string responsible) 
         {
-            DomainExceptionValidation.When(id < 0, "Id inválido/inexistente");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(id), "Id inválido/inexistente");
             Id = id;
             ValidateDomain(eventDateTime, description, responsible);
         }

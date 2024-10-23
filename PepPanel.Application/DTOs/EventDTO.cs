@@ -11,7 +11,7 @@ namespace PepPanel.Application.DTOs
 {
     public class EventDTO
     {
-        public int Id { get; set; }
+        public string? Id { get; set; }
 
         [Required(ErrorMessage = "A data do evento é obrigatória")]
         [DisplayName("Data do Evento")]

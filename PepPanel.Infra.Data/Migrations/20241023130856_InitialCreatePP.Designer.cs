@@ -12,8 +12,8 @@ using PepPanel.Infra.Data.Context;
 namespace PepPanel.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240904210200_initial")]
-    partial class initial
+    [Migration("20241023130856_InitialCreatePP")]
+    partial class InitialCreatePP
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,12 +27,9 @@ namespace PepPanel.Infra.Data.Migrations
 
             modelBuilder.Entity("PepPanel.Domain.Entities.Event", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                    b.Property<string>("Id")
+                        .HasColumnType("NVARCHAR2(450)")
                         .HasColumnName("EV_ID");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("TIMESTAMP(7)")
@@ -53,7 +50,7 @@ namespace PepPanel.Infra.Data.Migrations
                         .HasColumnType("NVARCHAR2(2000)")
                         .HasColumnName("EV_RESPONSIBLE");
 
-                    b.Property<DateTime>("UpdateDate")
+                    b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("TIMESTAMP(7)")
                         .HasColumnName("EV_UPDATEDATE");
 
@@ -64,12 +61,9 @@ namespace PepPanel.Infra.Data.Migrations
 
             modelBuilder.Entity("PepPanel.Domain.Entities.Warning", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                    b.Property<string>("Id")
+                        .HasColumnType("NVARCHAR2(450)")
                         .HasColumnName("WR_ID");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("TIMESTAMP(7)")
@@ -80,7 +74,7 @@ namespace PepPanel.Infra.Data.Migrations
                         .HasColumnType("NVARCHAR2(2000)")
                         .HasColumnName("WR_DESCRIPTION");
 
-                    b.Property<DateTime>("UpdateDate")
+                    b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("TIMESTAMP(7)")
                         .HasColumnName("WR_UPDATEDATE");
 

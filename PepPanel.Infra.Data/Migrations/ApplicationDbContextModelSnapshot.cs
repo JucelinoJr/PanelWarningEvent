@@ -24,12 +24,9 @@ namespace PepPanel.Infra.Data.Migrations
 
             modelBuilder.Entity("PepPanel.Domain.Entities.Event", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                    b.Property<string>("Id")
+                        .HasColumnType("NVARCHAR2(450)")
                         .HasColumnName("EV_ID");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("TIMESTAMP(7)")
@@ -61,12 +58,9 @@ namespace PepPanel.Infra.Data.Migrations
 
             modelBuilder.Entity("PepPanel.Domain.Entities.Warning", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                    b.Property<string>("Id")
+                        .HasColumnType("NVARCHAR2(450)")
                         .HasColumnName("WR_ID");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("TIMESTAMP(7)")

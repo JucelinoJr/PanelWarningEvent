@@ -29,6 +29,7 @@
                     <td>#</td>
                     <td>Descricao</td>
                     <td>Editar</td>
+                    <td>Excluir</td>
                 </tr>
             </thead>
             <tbody>
@@ -38,6 +39,7 @@
                         <td>@dados.Id</td>
                         <td>@dados.Description</td>
                         <td><a asp-action="Edit" asp-route-id="@dados.Id"> Editar </a></td>
+                        <td><a asp-action="Delete" asp-route-id="@dados.Id"> Excluir </a></td>
                     </tr>
                 }
 

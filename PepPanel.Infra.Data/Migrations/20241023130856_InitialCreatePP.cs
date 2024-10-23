@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace PepPanel.Infra.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class InitialCreatePP : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,12 +15,12 @@ namespace PepPanel.Infra.Data.Migrations
                 name: "PP_EVENT",
                 columns: table => new
                 {
-                    EV_ID = table.Column<int>(type: "NUMBER(10)", nullable: false),
+                    EV_ID = table.Column<string>(type: "NVARCHAR2(450)", nullable: false),
                     EV_EVENTDATETIME = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
                     EV_DESCRIPTION = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     EV_RESPONSIBLE = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     EV_CREATEDATE = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    EV_UPDATEDATE = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false)
+                    EV_UPDATEDATE = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -31,31 +31,15 @@ namespace PepPanel.Infra.Data.Migrations
                 name: "PP_WARNING",
                 columns: table => new
                 {
-                    WR_ID = table.Column<int>(type: "NUMBER(10)", nullable: false),
+                    WR_ID = table.Column<string>(type: "NVARCHAR2(450)", nullable: false),
                     WR_DESCRIPTION = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     WR_CREATEDATE = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    WR_UPDATEDATE = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false)
+                    WR_UPDATEDATE = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_PP_WARNING", x => x.WR_ID);
                 });
-            migrationBuilder.Sql(@"
-                CREATE SEQUENCE SEQ_EVENT
-                START WITH 1
-                INCREMENT BY 1
-                MINVALUE 1
-                NOCACHE
-                NOCYCLE;
-            ");
-                        migrationBuilder.Sql(@"
-                CREATE SEQUENCE SEQ_WARNING
-                START WITH 1
-                INCREMENT BY 1
-                MINVALUE 1
-                NOCACHE
-                NOCYCLE;
-            ");
         }
 
         /// <inheritdoc />
@@ -66,8 +50,6 @@ namespace PepPanel.Infra.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "PP_WARNING");
-            migrationBuilder.Sql("DROP SEQUENCE SEQ_EVENT;");
-            migrationBuilder.Sql("DROP SEQUENCE SEQ_WARNING;");
         }
     }
 }

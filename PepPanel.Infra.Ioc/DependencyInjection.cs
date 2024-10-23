@@ -25,7 +25,6 @@ namespace PepPanel.Infra.Ioc
             services.AddScoped<IEventService, EventService>();
             services.AddScoped<IWarningService, WarningService>();
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
-            services.AddSingleton<OracleConnectionFactory>();
 
             return services;
         }

@@ -10,7 +10,7 @@ namespace PepPanel.Application.DTOs
 {
     public class WarningDTO
     {
-        public int Id { get; set; }
+        public string? Id { get; set; }
 
         [Required(ErrorMessage="A descrição do aviso é necessária")]
         [MinLength(10)]

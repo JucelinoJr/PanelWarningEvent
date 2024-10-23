@@ -10,9 +10,10 @@ namespace PepPanel.Domain.Interfaces
     public interface IEventRepository
     {
         Task<IEnumerable<Event>> GetEventsAsync();
-        Task<Event> GetByIdAsync(int? id);
+        Task<Event> GetByIdAsync(string? id);
         Task<Event> CreateAsync(Event Event);
         Task<Event> UpdateAsync(Event Event);
         Task<Event> DeleteAsync(Event Event);
+        string GetNextSequenceValueAsync();
     }
 }

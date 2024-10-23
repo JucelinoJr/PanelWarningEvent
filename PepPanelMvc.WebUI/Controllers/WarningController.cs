@@ -38,9 +38,9 @@ namespace PepPanelMvc.WebUI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string? id)
         {
-            if (id == null) return NotFound();
+            if (id == "") return NotFound();
             var WarningDto = await _warningService.GetWarningById(id);
 
             if (WarningDto == null) return NotFound();
@@ -57,6 +57,34 @@ namespace PepPanelMvc.WebUI.Controllers
                     await _warningService.Update(warning);
                 }
                 catch (Exception ex) 
+                {
+                    throw;
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(warning);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(string? id)
+        {
+            if (id == "") return NotFound();
+            var WarningDto = await _warningService.GetWarningById(id);
+
+            if (WarningDto == null) return NotFound();
+            return View(WarningDto);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(WarningDTO warning)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _warningService.Delete(warning.Id);
+                }
+                catch (Exception ex)
                 {
                     throw;
                 }

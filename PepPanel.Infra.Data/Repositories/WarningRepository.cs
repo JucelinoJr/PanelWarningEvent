@@ -14,11 +14,9 @@ namespace PepPanel.Infra.Data.Repositories
     public class WarningRepository : IWarningRepository
     {
         ApplicationDbContext _Warningcontext;
-        private readonly OracleConnectionFactory _oracleConnectionFactory;
-        public WarningRepository(ApplicationDbContext context, OracleConnectionFactory oracleConnectionFactory)
+        public WarningRepository(ApplicationDbContext context)
         {
             _Warningcontext = context;
-            _oracleConnectionFactory = oracleConnectionFactory;
         }
 
         public async Task<Warning> CreateAsync(Warning warning)
@@ -30,14 +28,24 @@ namespace PepPanel.Infra.Data.Repositories
 
         public async Task<Warning> DeleteAsync(Warning warning)
         {
-            _Warningcontext.Remove(warning);
+            _Warningcontext.Warning.Remove(warning);
             await _Warningcontext.SaveChangesAsync();
             return warning;
         }
 
-        public async Task<Warning> GetByIdAsync(int? id)
+        public async Task<Warning> GetWarningById(string? id)
         {
-            return await _Warningcontext.Warning.FindAsync(id);
+            var warnings = await _Warningcontext.Warning.ToListAsync();
+            Warning warning = null;
+            foreach (var w in warnings)
+            {
+                if (w.Id == id)
+                {
+                    warning = w;
+                    return warning;
+                }
+            }
+            return null;
         }
 
         public async Task<IEnumerable<Warning>> GetWarningsAsync()
@@ -52,26 +60,9 @@ namespace PepPanel.Infra.Data.Repositories
             return warning;
         }
 
-        public async Task<int> GetNextSequenceValueAsync()
+        public string GetNextSequenceValueAsync()
         {
-            using (var connection = (OracleConnection)_oracleConnectionFactory.CreateConnection())
-            {
-                await connection.OpenAsync();  // Usando o método assíncrono de abertura de conexão
-
-                // Cria e executa o comando SQL para obter o próximo valor da sequência
-                using (var command = new OracleCommand("SELECT aplicacoes.seq_warning.NEXTVAL FROM dual", connection))
-                {
-                    using (var reader = await command.ExecuteReaderAsync())
-                    {
-                        if (await reader.ReadAsync())
-                        {
-                            return reader.GetInt32(0);  // Obtém o valor da sequência
-                        }
-                    }
-                }
-            }
-
-            throw new InvalidOperationException("Não foi possível obter o próximo valor da sequência.");
+            return _Warningcontext.ContextId.InstanceId.ToString();
         }
 
     }

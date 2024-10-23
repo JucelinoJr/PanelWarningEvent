@@ -23,17 +23,18 @@ namespace PepPanel.Application.Services
 
         public async Task Add(EventDTO eventDTO)
         {
+            eventDTO.Id = GetNextSequenceValueAsync();
             var eventEntity = _mapper.Map<Event>(eventDTO);
             await _eventRepository.CreateAsync(eventEntity);
         }
 
-        public async Task Delete(int? id)
+        public async Task Delete(string? id)
         {
             var eventEntity = _eventRepository.GetByIdAsync(id).Result;
             await _eventRepository.DeleteAsync(eventEntity);
         }
 
-        public async Task<EventDTO> GetEventById(int id)
+        public async Task<EventDTO> GetEventById(string id)
         {
             var eventEntity = await _eventRepository.GetByIdAsync(id);
             return _mapper.Map<EventDTO>(eventEntity);
@@ -49,6 +50,11 @@ namespace PepPanel.Application.Services
         {
             var eventEntity = _mapper.Map<Event>(eventDTO);
             await _eventRepository.UpdateAsync(eventEntity);
+        }
+
+        public string GetNextSequenceValueAsync()
+        {
+            return _eventRepository.GetNextSequenceValueAsync();
         }
     }
 }

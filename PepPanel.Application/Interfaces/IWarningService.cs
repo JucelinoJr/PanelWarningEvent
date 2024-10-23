@@ -11,10 +11,10 @@ namespace PepPanel.Application.Interfaces
     public interface IWarningService
     {
         Task<IEnumerable<WarningDTO>> GetWarnings();
-        Task<WarningDTO> GetWarningById(int? id);
+        Task<WarningDTO> GetWarningById(string? id);
         Task Add(WarningDTO warningDTO);
         Task Update(WarningDTO warningDTO);
-        Task Delete(int? id);
-        Task<int> GetNextSequenceValueAsync();
+        Task Delete(string? id);
+        string GetNextSequenceValueAsync();
     }
 }

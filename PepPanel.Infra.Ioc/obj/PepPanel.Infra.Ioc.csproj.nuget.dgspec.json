@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj": {}
+    "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\PepPanel.Application.csproj": {
+    "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\PepPanel.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\PepPanel.Application.csproj",
+        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\PepPanel.Application.csproj",
         "projectName": "PepPanel.Application",
-        "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\PepPanel.Application.csproj",
+        "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\PepPanel.Application.csproj",
         "packagesPath": "C:\\Users\\jucelino.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\obj\\",
+        "outputPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jucelino.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj": {
-                "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj"
+              "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj": {
+                "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj"
               }
             }
           }
@@ -71,18 +71,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj": {
+    "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj",
         "projectName": "PepPanel.Domain",
-        "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj",
+        "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj",
         "packagesPath": "C:\\Users\\jucelino.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\obj\\",
+        "outputPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jucelino.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,18 +132,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj": {
+    "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj",
         "projectName": "PepPanel.Infra.Data",
-        "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\jucelino.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jucelino.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,8 +161,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj": {
-                "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj"
+              "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj": {
+                "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj"
               }
             }
           }
@@ -219,18 +219,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj": {
+    "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj",
+        "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj",
         "projectName": "PepPanel.Infra.Ioc",
-        "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj",
+        "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj",
         "packagesPath": "C:\\Users\\jucelino.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\obj\\",
+        "outputPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jucelino.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -248,14 +248,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\PepPanel.Application.csproj": {
-                "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Application\\PepPanel.Application.csproj"
+              "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\PepPanel.Application.csproj": {
+                "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\PepPanel.Application.csproj"
               },
-              "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj": {
-                "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Domain\\PepPanel.Domain.csproj"
+              "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj": {
+                "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\PepPanel.Domain.csproj"
               },
-              "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj"
+              "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj"
               }
             }
           }
@@ -290,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

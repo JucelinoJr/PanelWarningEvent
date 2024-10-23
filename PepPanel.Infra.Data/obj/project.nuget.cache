@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IBMZ7iG8k80=",
+  "dgSpecHash": "psY5JrmQgHI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jucelino.junior\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jucelino.junior\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -2770,11 +2770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj",
       "projectName": "PepPanelMvc.WebUI",
-      "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj",
+      "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj",
       "packagesPath": "C:\\Users\\jucelino.junior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanelMvc.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jucelino.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2792,8 +2792,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj": {
-              "projectPath": "C:\\Users\\jucelino.junior\\source\\repos\\PepPanel\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj"
+            "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj": {
+              "projectPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Ioc\\PepPanel.Infra.Ioc.csproj"
             }
           }
         }
@@ -2831,7 +2831,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
