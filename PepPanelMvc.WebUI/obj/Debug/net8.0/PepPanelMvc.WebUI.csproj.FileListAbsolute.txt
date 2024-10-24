@@ -241,3 +241,12 @@ C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\
 C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\obj\Debug\net8.0\PepPanelMvc.WebUI.pdb
 C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\obj\Debug\net8.0\PepPanelMvc.WebUI.genruntimeconfig.cache
 C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\obj\Debug\net8.0\ref\PepPanelMvc.WebUI.dll
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\Novidades no prontuario evolucao medica.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\Prescrição médica alta hospitalar.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\Prescrição médica imagens.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\Prescrição médica instrução para o uso do campo de observação.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\PROTOCOLO DE SEPSE.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\PROTOCOLO MEDICO DE TEV CIRURGICO.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Videos\Treinamento Plano de contingência.mp4
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Images\equipe-medica.png
+C:\Users\jucelino.junior\source\reposGitHub\PanelWarningEvent\PepPanelMvc.WebUI\bin\Debug\net8.0\wwwroot\Content\Images\trabalho-em-equipe.png

@@ -32,9 +32,18 @@ namespace PepPanel.Infra.Data.Repositories
             return Event;
         }
 
-        public async Task<Event> GetByIdAsync(string? id)
+        public async Task<Event> GetEventById(string? id)
         {
-            return await _EventContext.Event.FindAsync(id);
+            var events = await _EventContext.Event.ToListAsync();
+            foreach (var e in events)
+            {
+                if (e.Id == id)
+                {
+                    Event selectedEvent = e;
+                    return selectedEvent;
+                }
+            }
+            return null;
         }
 
         public async Task<IEnumerable<Event>> GetEventsAsync()

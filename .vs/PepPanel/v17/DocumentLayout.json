@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\views\\warning\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\views\\warning\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\controllers\\warningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\controllers\\warningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A145EA6-0D55-462F-AA35-74EE3D01BA5D}|PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanel.infra.data\\repositories\\warningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A145EA6-0D55-462F-AA35-74EE3D01BA5D}|PepPanel.Infra.Data\\PepPanel.Infra.Data.csproj|solutionrelative:peppanel.infra.data\\repositories\\warningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanel.application\\services\\warningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|solutionrelative:peppanel.application\\services\\warningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F3E2E77-CD50-47A0-8DF7-FD5A484DB119}|PepPanel.Domain\\PepPanel.Domain.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanel.domain\\interfaces\\iwarningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F3E2E77-CD50-47A0-8DF7-FD5A484DB119}|PepPanel.Domain\\PepPanel.Domain.csproj|solutionrelative:peppanel.domain\\interfaces\\iwarningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanel.application\\dtos\\warningdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|solutionrelative:peppanel.application\\dtos\\warningdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanel.application\\interfaces\\iwarningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0029A24-EB26-4363-A1BA-68C9BF5E88A4}|PepPanel.Application\\PepPanel.Application.csproj|solutionrelative:peppanel.application\\interfaces\\iwarningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F3E2E77-CD50-47A0-8DF7-FD5A484DB119}|PepPanel.Domain\\PepPanel.Domain.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanel.domain\\entities\\warning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F3E2E77-CD50-47A0-8DF7-FD5A484DB119}|PepPanel.Domain\\PepPanel.Domain.csproj|solutionrelative:peppanel.domain\\entities\\warning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Warning\\Delete.cshtml",
-              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Views\\Warning\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Warning\\Delete.cshtml",
-              "RelativeToolTip": "PepPanelMvc.WebUI\\Views\\Warning\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T18:48:32.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WarningDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\DTOs\\WarningDTO.cs",
-              "RelativeDocumentMoniker": "PepPanel.Application\\DTOs\\WarningDTO.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\DTOs\\WarningDTO.cs",
-              "RelativeToolTip": "PepPanel.Application\\DTOs\\WarningDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:05:54.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IWarningService.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\Interfaces\\IWarningService.cs",
-              "RelativeDocumentMoniker": "PepPanel.Application\\Interfaces\\IWarningService.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\Interfaces\\IWarningService.cs",
-              "RelativeToolTip": "PepPanel.Application\\Interfaces\\IWarningService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:02:41.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IWarningRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\Interfaces\\IWarningRepository.cs",
-              "RelativeDocumentMoniker": "PepPanel.Domain\\Interfaces\\IWarningRepository.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\Interfaces\\IWarningRepository.cs",
-              "RelativeToolTip": "PepPanel.Domain\\Interfaces\\IWarningRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:01:27.562Z",
+              "WhenOpened": "2024-10-24T15:45:43.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WarningController.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
-              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
-              "RelativeToolTip": "PepPanelMvc.WebUI\\Controllers\\WarningController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAADwv08AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:47:36.359Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-24T15:31:59.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Warning.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\Entities\\Warning.cs",
-              "RelativeDocumentMoniker": "PepPanel.Domain\\Entities\\Warning.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Domain\\Entities\\Warning.cs",
-              "RelativeToolTip": "PepPanel.Domain\\Entities\\Warning.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:46:38.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WarningService.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\Services\\WarningService.cs",
-              "RelativeDocumentMoniker": "PepPanel.Application\\Services\\WarningService.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Application\\Services\\WarningService.cs",
-              "RelativeToolTip": "PepPanel.Application\\Services\\WarningService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:27:14.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WarningRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\Repositories\\WarningRepository.cs",
-              "RelativeDocumentMoniker": "PepPanel.Infra.Data\\Repositories\\WarningRepository.cs",
-              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanel.Infra.Data\\Repositories\\WarningRepository.cs",
-              "RelativeToolTip": "PepPanel.Infra.Data\\Repositories\\WarningRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:27:01.735Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T14:55:44.685Z",
               "EditorCaption": ""
             }
           ]

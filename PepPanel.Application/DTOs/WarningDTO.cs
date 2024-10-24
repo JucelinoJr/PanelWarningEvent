@@ -17,5 +17,7 @@ namespace PepPanel.Application.DTOs
         [MaxLength(500)]
         [DisplayName("Descrição")]
         public string Description { get; set; }
+
+        public DateTime CreateDate { get; set; } = DateTime.Now;
     }
 }

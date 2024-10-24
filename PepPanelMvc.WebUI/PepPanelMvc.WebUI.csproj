@@ -10,4 +10,37 @@
     <ProjectReference Include="..\PepPanel.Infra.Ioc\PepPanel.Infra.Ioc.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Content\Videos\Novidades no prontuario evolucao medica.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Content\Videos\Prescrição médica alta hospitalar.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Content\Videos\Prescrição médica imagens.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Content\Videos\Prescrição médica instrução para o uso do campo de observação.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Content\Videos\PROTOCOLO DE SEPSE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Content\Videos\PROTOCOLO MEDICO DE TEV CIRURGICO.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Content\Videos\Treinamento Plano de contingência.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Content\Images\equipe-medica.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Content\Images\trabalho-em-equipe.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

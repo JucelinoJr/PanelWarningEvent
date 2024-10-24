@@ -5,6 +5,42 @@
       "PackagePath": "staticwebassets\\PepPanelMvc.WebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Images\\equipe-medica.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\equipe-medica.png"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Images\\trabalho-em-equipe.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\trabalho-em-equipe.png"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\Novidades no prontuario evolucao medica.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\Novidades no prontuario evolucao medica.mp4"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\PROTOCOLO DE SEPSE.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\PROTOCOLO DE SEPSE.mp4"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\PROTOCOLO MEDICO DE TEV CIRURGICO.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\PROTOCOLO MEDICO DE TEV CIRURGICO.mp4"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\Prescrição médica alta hospitalar.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\Prescrição médica alta hospitalar.mp4"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\Prescrição médica imagens.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\Prescrição médica imagens.mp4"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\Prescrição médica instrução para o uso do campo de observação.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\Prescrição médica instrução para o uso do campo de observação.mp4"
+    },
+    {
+      "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\Content\\Videos\\Treinamento Plano de contingência.mp4",
+      "PackagePath": "staticwebassets\\Content\\Videos\\Treinamento Plano de contingência.mp4"
+    },
+    {
       "Id": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

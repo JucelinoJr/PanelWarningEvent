@@ -18,7 +18,7 @@ namespace PepPanel.Domain.Entities
         public string Description {  get; private set; }
 
         [Column("WR_CREATEDATE")]
-        public DateTime CreateDate { get; set; } = DateTime.Now;
+        public DateTime CreateDate { get; private set; }
 
         [Column("WR_UPDATEDATE")]
         public DateTime? UpdateDate { get; set; }

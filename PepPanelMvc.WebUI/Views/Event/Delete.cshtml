@@ -1,0 +1,36 @@
+﻿@model PepPanel.Application.DTOs.EventDTO
+<h4>Excluir Evento</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Delete">
+            <div class="row form-group">
+                <div class="col-md-12 form-control-sm">
+                    <label asp-for="Description" class="control-label"></label>
+                    <h6 asp-for="Description">@Model.Description</h6>
+                    <input type="hidden" asp-for="Description" />
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-4 form-control-sm">
+                    <label asp-for="EventDateTime" class="col-md-4 control-label"></label>
+                    <h6 asp-for="EventDateTime">@Model.EventDateTime</h6>
+                    <input type="hidden" asp-for="EventDateTime" class="form-control" />
+                </div>
+                <div class="col-md-8 form-control-sm">
+                    <label asp-for="Responsible" class="col-md-4 control-label"></label>
+                    <h6 asp-for="Responsible">@Model.Responsible</h6>
+                    <input type="hidden" asp-for="Responsible" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <hr />
+                <h5>Tem certeza que deseja excluir o evento?</h5>
+                <input type="submit" value="Sim" class="btn btn-danger btn-sm" />
+                <a asp-action="Index" class="btn btn-primary btn-sm">Não</a>
+            </div>
+        </form>
+
+    </div>
+</div>

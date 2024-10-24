@@ -41,10 +41,10 @@ namespace PepPanelMvc.WebUI.Controllers
         public async Task<IActionResult> Edit(string? id)
         {
             if (id == "") return NotFound();
-            var WarningDto = await _warningService.GetWarningById(id);
+            var warningDto = await _warningService.GetWarningById(id);
 
-            if (WarningDto == null) return NotFound();
-            return View(WarningDto);
+            if (warningDto == null) return NotFound();
+            return View(warningDto);
         }
 
         [HttpPost]
@@ -69,10 +69,10 @@ namespace PepPanelMvc.WebUI.Controllers
         public async Task<IActionResult> Delete(string? id)
         {
             if (id == "") return NotFound();
-            var WarningDto = await _warningService.GetWarningById(id);
+            var warningDto = await _warningService.GetWarningById(id);
 
-            if (WarningDto == null) return NotFound();
-            return View(WarningDto);
+            if (warningDto == null) return NotFound();
+            return View(warningDto);
         }
 
         [HttpPost]

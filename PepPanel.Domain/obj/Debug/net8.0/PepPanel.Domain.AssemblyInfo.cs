@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PepPanel.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9600ce7daf9d39e8fdee1885b20b99b543327df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa9d5ab55540f227b2a2d42b312bafab9497fa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PepPanel.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PepPanel.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

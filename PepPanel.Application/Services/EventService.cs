@@ -30,13 +30,13 @@ namespace PepPanel.Application.Services
 
         public async Task Delete(string? id)
         {
-            var eventEntity = _eventRepository.GetByIdAsync(id).Result;
+            var eventEntity = _eventRepository.GetEventById(id).Result;
             await _eventRepository.DeleteAsync(eventEntity);
         }
 
         public async Task<EventDTO> GetEventById(string id)
         {
-            var eventEntity = await _eventRepository.GetByIdAsync(id);
+            var eventEntity = await _eventRepository.GetEventById(id);
             return _mapper.Map<EventDTO>(eventEntity);
         }
     

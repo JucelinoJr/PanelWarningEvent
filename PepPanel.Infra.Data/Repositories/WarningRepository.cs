@@ -36,13 +36,12 @@ namespace PepPanel.Infra.Data.Repositories
         public async Task<Warning> GetWarningById(string? id)
         {
             var warnings = await _Warningcontext.Warning.ToListAsync();
-            Warning warning = null;
             foreach (var w in warnings)
             {
                 if (w.Id == id)
                 {
-                    warning = w;
-                    return warning;
+                    Warning selectedWarning = w;
+                    return selectedWarning;
                 }
             }
             return null;
