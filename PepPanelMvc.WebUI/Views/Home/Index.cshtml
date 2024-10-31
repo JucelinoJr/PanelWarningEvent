@@ -4,51 +4,63 @@
 }
 
 @* eventos *@
-<div class="container">
-    <h5 class="form-label text-center">EVENTOS</h5>
-    <div class="row">
-        <div class="col-md-12">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <td>Descrição</td>
-                        <td>Responsável</td>
-                        <td>Data do Evento</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var dados in Model.eventDTO)
-                    {
-                        <tr>
-                            <td>@dados.Description</td>
-                            <td>@dados.Responsible</td>
-                            <td>@dados.EventDateTime</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+<div class="row">
+    <div class="card">
+        <div class="card-header">
+            <h6 class="form-label text-center">EVENTOS</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <td>Descrição</td>
+                                <td>Responsável</td>
+                                <td>Data do Evento</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var dados in Model.eventDTO)
+                            {
+                                <tr>
+                                    <td>@dados.Description</td>
+                                    <td>@dados.Responsible</td>
+                                    <td>@dados.EventDateTime</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-    <br/>
 </div>
-
+<br/>
 @* avisos *@
-<div class="container">
-    <h5 class="form-label text-center">AVISOS</h5>
-    @foreach (var dados in Model.warningDTO)
-    {
-        <div class="alert alert-danger" role="alert">
-            <p>@dados.Description</p>
-            <hr>
-            <p class="mb-0">@dados.CreateDate</p>
+<div class="row">
+    <div class="card">
+        <div class="card-header">
+            <h6 class="form-label text-center">AVISOS</h6>
         </div>
-    }
-    <br />
+        <div class="card-body">
+            @foreach (var dados in Model.warningDTO)
+            {
+                <div class="alert alert-danger" role="alert">
+                    <p>@dados.Description</p>
+                    <hr>
+                    <p class="mb-0">@dados.CreateDate</p>
+                </div>
+            }
+        </div>
+    </div>
 </div>
+<br />
+<br />
 
 <!--inicio videos-->
 <div class="container">
-    <h5 class="form-label text-center">
+    <h5 class="form-label text-center text-light">
         <img src="~/Content/Images/equipe-medica.png" alt="..." class="img-fluid" width="40px" height="20px">
         VÍDEOS MÉDICO
     </h5>
@@ -58,13 +70,13 @@
             <video controls class="video">
                 <source src="~/Content/Videos/Novidades no prontuario evolucao medica.mp4">
             </video>
-            <label>Novidades no Prontuário Evolução Médica</label>
+            <label class="text-light">Novidades no Prontuário Evolução Médica</label>
         </div>
         <div class="col-md-6">
             <video controls class="video">
                 <source src="~/Content/Videos/Prescrição médica alta hospitalar.mp4">
             </video>
-            <label>Prescrição Médica - Alta Hospitalar</label>
+            <label class="text-light">Prescrição Médica - Alta Hospitalar</label>
         </div>
     </div>
 
@@ -73,13 +85,13 @@
             <video controls class="video">
                 <source src="~/Content/Videos/Prescrição médica imagens.mp4">
             </video>
-            <label>Prescrição Médica - Imagens</label>
+            <label class="text-light">Prescrição Médica - Imagens</label>
         </div>
         <div class="col-md-6">
             <video controls class="video">
                 <source src="~/Content/Videos/Prescrição médica instrução para o uso do campo de observação.mp4">
             </video>
-            <label>Prescrição Médica - Instrução Para o uso do Campo de Observação</label>
+            <label class="text-light">Prescrição Médica - Instrução Para o uso do Campo de Observação</label>
         </div>
     </div>
 
@@ -88,13 +100,13 @@
             <video controls class="video">
                 <source src="~/Content/Videos/PROTOCOLO DE SEPSE.mp4">
             </video>
-            <label>Protocolo de Sepse</label>
+            <label class="text-light">Protocolo de Sepse</label>
         </div>
         <div class="col-md-6">
             <video controls class="video">
                 <source src="~/Content/Videos/PROTOCOLO MEDICO DE TEV CIRURGICO.mp4">
             </video>
-            <label>Protocolo Médico de TEV Cirúrgico</label>
+            <label class="text-light">Protocolo Médico de TEV Cirúrgico</label>
         </div>
     </div>
 
@@ -103,14 +115,14 @@
             <video controls class="video">
                 <source src="~/Content/Videos/Treinamento Plano de contingência.mp4">
             </video>
-            <label>Treinamento Plano de contingência</label>
+            <label class="text-light">Treinamento Plano de contingência</label>
         </div>
     </div>
     <br />
 </div>
 
 <div class="container">
-    <h5 class="form-label text-center">
+    <h5 class="form-label text-center text-light">
         <img src="~/Content/Images/trabalho-em-equipe.png" alt="..." class="img-fluid" width="40px" height="20px">
         VÍDEOS EQUIPE ASSISTENCIAL
     </h5>

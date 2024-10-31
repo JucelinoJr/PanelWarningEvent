@@ -1,22 +1,28 @@
 ﻿@model PepPanel.Application.DTOs.WarningDTO
-<h4>Excluir Aviso</h4>
-<hr />
 
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Delete">
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <h6 asp-for="Description">@Model.Description</h6>
-                <input type="hidden" asp-for="Description"/>
-            </div>
-            <div class="form-group">
-                <hr/>
-                <h5>Tem certeza que deseja excluir o aviso?</h5>
-                <input type="submit" value="Sim" class="btn btn-danger btn-sm" />
-                <a asp-action="Index" class="btn btn-primary btn-sm">Não</a>
-            </div>
-        </form>
+<div class="card">
+    <div class="card-header">
+        <h4>Excluir Aviso</h4>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Delete">
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <h6 asp-for="Description">@Model.Description</h6>
+                        <input type="hidden" asp-for="Description" />
+                    </div>
+                    <div class="form-group">
+                        <hr />
+                        <h5>Tem certeza que deseja excluir o aviso?</h5>
+                        <input type="submit" value="Sim" class="btn btn-danger btn-sm" />
+                        <a asp-action="Index" class="btn btn-primary btn-sm">Não</a>
+                    </div>
+                </form>
 
+            </div>
+        </div>
     </div>
 </div>
+
