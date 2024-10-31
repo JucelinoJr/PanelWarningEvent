@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PepPanelMvc.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d821e36947ad2e064784690340906dd6b846478")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c558d4c606fc694ea9aa96831d2a96c7b14008c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PepPanelMvc.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PepPanelMvc.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
