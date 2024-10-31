@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|c:\\users\\jucelino.junior\\source\\reposgithub\\panelwarningevent\\peppanelmvc.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4F676E-8DDD-4F4C-9414-D444FE7CA7B1}|PepPanelMvc.WebUI\\PepPanelMvc.WebUI.csproj|solutionrelative:peppanelmvc.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PepPanelMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T12:46:50.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Controllers\\HomeController.cs",
@@ -44,9 +61,10 @@
               "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
               "RelativeToolTip": "PepPanelMvc.WebUI\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-24T15:31:59.435Z"
+              "WhenOpened": "2024-10-24T15:31:59.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +74,7 @@
               "RelativeDocumentMoniker": "PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\jucelino.junior\\source\\reposGitHub\\PanelWarningEvent\\PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PepPanelMvc.WebUI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-24T14:55:44.685Z",
               "EditorCaption": ""
